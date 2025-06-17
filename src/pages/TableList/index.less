@@ -1,0 +1,43 @@
+.tableList {
+  .toolbar {
+    margin-bottom: 16px;
+  }
+
+  .searchForm {
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+  }
+
+  .table {
+    .ant-table-thead > tr > th {
+      background-color: #fafafa;
+      font-weight: 600;
+    }
+
+    .status-active {
+      color: #52c41a;
+    }
+
+    .status-inactive {
+      color: #ff4d4f;
+    }
+  }
+
+  .modal {
+    .ant-form-item-label {
+      font-weight: 500;
+    }
+  }
+}
+
+// 响应式处理
+@media (max-width: 768px) {
+  .tableList {
+    .ant-pro-table-search {
+      .ant-form-item {
+        margin-bottom: 12px;
+      }
+    }
+  }
+} 
